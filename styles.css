@@ -182,3 +182,20 @@ footer {
     justify-content: space-evenly;
     opacity: 80%;
 }
+
+.stars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: -1;
+}
+
+.star {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background: #fff;
+}

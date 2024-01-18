@@ -13,6 +13,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <div class="stars" id="stars-container"></div>
+
     <img src="logo.png" alt="" class="page-logo">
     <div class="nav-bar">
         <ul>
@@ -164,5 +167,25 @@
         <p>IEI: Web Wizards</p>
     </footer>
 
+
+    <script>
+        // Number of stars you want on the screen
+        const numStars = 100;
+
+        // Function to generate random number within a range
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        // Create stars and add them to the container
+        const starsContainer = document.getElementById('stars-container');
+        for (let i = 0; i < numStars; i++) {
+            const star = document.createElement('div');
+            star.className = 'star';
+            star.style.top = `${getRandomInt(0, 100)}vh`;
+            star.style.left = `${getRandomInt(0, 100)}vw`;
+            starsContainer.appendChild(star);
+        }
+    </script>
 </body>
 </html>
