@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #1c1917;
+    color: #fafafa;
+
+}
+
+img {
+    position: relative;
+}
+
+.nav-bar {
+    display: flex;
+    padding-top: 1em;
+    float: right;
+
+}
+
+.nav-bar a{
+    font-size: 1.2em;
+    font-family: monospace;
+    text-decoration: none;
+}
+
+.page-logo {
+    margin-left: 1em;
+    width: 7rem;
+}
+
+.nav-bar ul {
+    display: flex;
+    padding: 0;
+}
+
+.nav-bar li {
+    list-style: none;
+    padding: 1em 1em;
+    
+    margin-left: 1em;
+
+}
+
+.nav-bar li:hover {
+    background-color: #f0f9ff;
+    color: #171717;
+
+}
+
+.super-section {
+    font-family: monospace;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.body-section {
+    border-top: 1px solid #fafafa;
+    padding: 2em;
+    margin: 2em;
+    font-family: 'Space Mono', monospace;
+}
+
+.body-section h2 {
+    padding-bottom: 0.5em;
+    
+}
+
+.body-section span {
+    border-top: 4px solid yellow;
+    top: 4em;
+    padding-left: 16em;
+}
+
+.feedback-cust {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #fafafa;
+    padding-top: 2em;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.feedbacks {
+    display: flex;
+    padding: 2em;
+    flex-wrap: wrap;
+
+}
+
+.feedbacks table {
+    margin: 2em;
+}
+
+.table-header {
+    font-size: 2em;
+    color: #020617;
+    background-color: #f8fafc;
+
+}
+
+.feedbacks2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 4em;
+}
+
+table td{
+    padding: 1em;
+    font-family: 'Quicksand', sans-serif;
+    color: #020617;
+    background-color: #fef3c7;
+    width: 13em;
+}
+
+.tour-section {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #fafafa;
+    padding-top: 2em;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 3em;
+
+}
+
+footer {
+    border-top: 2px solid #fafafa;
+    padding: 2em 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    opacity: 80%;
+}
